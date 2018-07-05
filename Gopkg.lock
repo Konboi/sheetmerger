@@ -8,10 +8,22 @@
   version = "v0.24.0"
 
 [[projects]]
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  revision = "b26d9c308763d68093482582cea63d69be07a0f0"
+  version = "v0.3.0"
+
+[[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
   revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
   version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/kayac/go-config"
+  packages = ["."]
+  revision = "ea064ca49b7ca24c9f7b659a5199e1d3295563c0"
+  version = "v0.0.2"
 
 [[projects]]
   branch = "master"
@@ -35,7 +47,7 @@
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","context/ctxhttp"]
-  revision = "4cb1c02c05b0e749b0365f61ae859a8e0cfceed9"
+  revision = "ed29d75add3d7c4bf7ca65aac0c6df3d1420216f"
 
 [[projects]]
   branch = "master"
@@ -47,7 +59,7 @@
   branch = "master"
   name = "google.golang.org/api"
   packages = ["drive/v2","drive/v3","gensupport","googleapi","googleapi/internal/uritemplates","sheets/v4"]
-  revision = "7c8bab9c4f5dd00b2afd0648fa0d753a46a603e8"
+  revision = "e0f3bfad25321f7b0777b3ab35a0503dcb221744"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -64,6 +76,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "91624e97cfd17b160d79922ffad4ca0f1d80410ed1b7d3e867b03b9efc2a864e"
+  inputs-digest = "afecde471978bb4e196f5dc8f076317379ca1efe3b81e2ce72d1fde75601c432"
   solver-name = "gps-cdcl"
   solver-version = 1
