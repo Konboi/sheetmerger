@@ -1,7 +1,7 @@
 package sheetmerger
 
 import (
-	config "github.com/Konboi/go-config"
+	config "github.com/kayac/go-config"
 	"github.com/pkg/errors"
 )
 
