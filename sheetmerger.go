@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/oauth2/google"
 	"golang.org/x/oauth2/jwt"
-	drive "google.golang.org/api/drive/v2"
+	drive "google.golang.org/api/drive/v3"
 	sheets "google.golang.org/api/sheets/v4"
 )
 
