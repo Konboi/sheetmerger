@@ -26,12 +26,6 @@
   version = "v0.0.2"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/mix3/sheetmerger"
-  packages = ["."]
-  revision = "520162f27df6fbc9eb0b979bc9028caa8604e092"
-
-[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
