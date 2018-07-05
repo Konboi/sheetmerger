@@ -6,9 +6,9 @@ import (
 )
 
 type ClientConfig struct {
-	Email       string `yaml:"email"`
-	PrivteKeyID string `yaml:"private_key_id"`
-	PrivatteKey string `yaml:"private_key"`
+	Email        string `yaml:"email"`
+	PrivateKeyID string `yaml:"private_key_id"`
+	PrivateKey   string `yaml:"private_key"`
 }
 
 type Config struct {

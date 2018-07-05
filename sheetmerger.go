@@ -13,8 +13,8 @@ import (
 func New(config Config) (*SheetMerge, error) {
 	cnf := &jwt.Config{
 		Email:        config.Client.Email,
-		PrivateKey:   []byte(config.Client.PrivatteKey),
-		PrivateKeyID: config.Client.PrivteKeyID,
+		PrivateKey:   []byte(config.Client.PrivateKey),
+		PrivateKeyID: config.Client.PrivateKeyID,
 		TokenURL:     google.JWTTokenURL,
 		Scopes: []string{
 			drive.DriveScope,
